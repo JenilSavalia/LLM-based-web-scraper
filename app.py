@@ -239,6 +239,7 @@ def extract_details_with_ai(html):
     - description: full book description text
     - publisher: publisher name
     - publication_date: publication date
+    - price: The current price of the book (e.g., "$9.99")
 
     Rules:
     - Return ONLY JSON
@@ -249,7 +250,8 @@ def extract_details_with_ai(html):
     {{
     "description":"",
     "publisher":"",
-    "publication_date":""
+    "publication_date":"",
+    "price":""
     }}
 
     CONTENT:
